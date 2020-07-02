@@ -1,0 +1,4 @@
+build:
+    web: quasar build
+run:
+    web: vendor/bin/heroku-php-nginx dist/spa
