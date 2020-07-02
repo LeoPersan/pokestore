@@ -6,6 +6,7 @@
   "author": "Leonardo Persan <leopso1990@gmail.com>",
   "private": true,
   "scripts": {
+    "build": "quasar build",
     "start": "quasar serve dist/spa",
     "lint": "eslint --ext .js,.vue ./",
     "test": "echo \"No test specified\" && exit 0"
