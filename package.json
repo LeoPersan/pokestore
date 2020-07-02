@@ -6,7 +6,9 @@
   "author": "Leonardo Persan <leopso1990@gmail.com>",
   "private": true,
   "scripts": {
+    "preinstall": "npm i -g quasar",
     "build": "quasar build",
+    "start": "quasar serve dist/spa",
     "lint": "eslint --ext .js,.vue ./",
     "test": "echo \"No test specified\" && exit 0"
   },
@@ -39,7 +41,6 @@
     "last 5 Opera versions"
   ],
   "engines": {
-    "quasar": ">= 2.0.0",
     "node": ">= 10.18.1",
     "npm": ">= 6.13.4",
     "yarn": ">= 1.21.1"

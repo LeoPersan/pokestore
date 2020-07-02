@@ -1,1 +1,0 @@
-web: quasar serve dist/spa
